@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World Flask App - Response</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            margin: 2rem auto;
+            max-width: 600px;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+        }
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        .greeting {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello World Flask App</h1>
+    </header>
+    <main>
+        <p>Your greeting:</p>
+        <p class="greeting">{{ greeting }}</p>
+        <a href="/" style="color: #333;">Back to homepage</a>
+    </main>
+</body>
+</html>
